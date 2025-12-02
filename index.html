@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIYUSH PORTIFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <style>
+        .navBody {
+            background-color: #ffffff;
+            color: white;
+
+        }
+
+        .nav-link {
+            color: white;
+        }
+
+        .contact_button {
+            border-radius: 50px;
+            background: white;
+        }
+
+        body {
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            color: #181D43;
+
+
+        }
+
+        .head {
+            /* background-image: linear-gradient(to right ,#093637,#093637, #44A08D ) */
+            background-color: #0B0613;
+        }
+
+        .mine {}
+
+        .name {
+            color: #DAD5E8;
+            font-size: 70px;
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+            line-height: .9;
+
+        }
+
+        .name3 {
+            color: #DAD5E8;
+            font-size: 30px;
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+            line-height: .9;
+        }
+
+        .myname {
+            color: #DAD5E8;
+            /* font-size: 70px; */
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            margin-left: 10px;
+            font-style: normal;
+
+        }
+
+        .name2 {
+            color: #98A1B7;
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+
+        }
+
+        .highlight {
+            color: #B066FF;
+        }
+
+        .gold {
+
+            font-size: 40px;
+        }
+
+        .subgold {
+            color: white;
+        }
+
+        .skillshow {
+            /* color: #FE9543; */
+            background-color: #1A1430;
+            padding: 2px 10px 2px 10px;
+            border-radius: 0px;
+            color: #98A1B7;
+            font-weight: 600;
+            transition: transform .3s ease-in-out, background-color .3s ease-in-out, box-shadow 0.3s ease;
+        }
+
+        .skillshow:hover .iconclass {
+            color: white;
+        }
+
+        .skillshow:hover {
+            background-color: #FE9543;
+            color: white;
+
+            transform: translateY(-10px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        .iconclass {
+            color: #b066ff;
+        }
+
+        .skills {
+            /* background-color: #0b495a; */
+
+            /* background: #00575c;
+        background: radial-gradient(circle, rgba(0, 87, 92, 1) 23%, rgba(24, 87, 75, 1) 100%); */
+            background-color: #F1F5F6;
+            padding-top: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .skill-card {
+            background-color: white;
+            border: none;
+            color: black;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        .work-card {
+            background-color: #33FD9C;
+            border: none;
+            color: black;
+            transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
+            border-radius: 50px;
+        }
+
+        .about {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #120A1F;
+        }
+
+        .bottom {
+            background-image: linear-gradient(to right, #44A08D, #093637, #093637)
+        }
+
+        .inputt {
+            background-color: #44A08D;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            width: 800px;
+            height: auto;
+            animation: fade-in .5s linear;
+        }
+
+        .link {
+            color: #181D43;
+            font-weight: 600;
+            margin-right: 20px;
+            border-radius: 10px;
+            /* sbackground-color: black; */
+        }
+
+        .link:hover {
+            background-color: #F1F5F6;
+            color: black;
+        }
+
+        .logo {}
+
+        .contact-btn {
+            color: white;
+            font-weight: 600;
+            margin-right: 20px;
+            border-radius: 10px;
+            background-color: #FE9543;
+        }
+
+        .normal-text {
+            font-size: 20px;
+            color: #98A1B7;
+            
+        }
+
+        .tittle-head {
+            font-size: 30px;
+            font-weight: 700;
+            color: #b066ff;
+        }
+
+        .autosize {
+            font-size: clamp(10px, 1.4vw, 15px);
+        }
+
+        .visit_button {
+            background-color: black;
+            color: white;
+            border-radius: 0;
+        }
+
+        .visit_button:hover {
+            background-color: #FE9543;
+            color: rgb(255, 0, 0);
+        }
+
+        .card-name {
+            font-weight: 600;
+
+        }
+
+        .card-info {
+            background-color: #be8558;
+            border-radius: 10px;
+        }
+
+        .icon {
+            font-size: 25px;
+            color: #98A1B7;
+            display: inline-block;
+            transition: color 0.3s ease-in-out, transform .3s ease-in-out;
+            /* add "s" */
+
+        }
+
+        .icon:hover {
+            color: #FE9543;
+            transform: scale(1.3);
+        }
+
+
+        /* VISIT ICON  */
+        .visitbox {
+            position: relative;
+        }
+
+        .visit_icon {
+            position: absolute;
+            top: -10px;
+            right: 7px;
+            background-color: #43e2fe;
+            border-radius: 7px;
+            padding: 5px 7px;
+            color: white !important;
+            text-decoration: none;
+            animation: shake 0.6s infinite ease-in-out;
+            transition: padding 0.2s ease, background-color 0.2s ease;
+            display: inline-block;
+        }
+
+        .visit_icon:hover {
+            /* background-color:#FE9543; */
+            padding: 8px 10px 8px 10px;
+            /* ⭐ Hover par padding increase */
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-4px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .visit_icon a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .collegeicon {
+            background-color: #FE9543;
+        }
+
+
+
+
+
+        .bounce_icon {
+            display: inline-block;
+            animation: float 1.5s infinite ease-in-out;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px)
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .location-icon {
+            animation: location 2s infinite ease-in-out;
+        }
+
+        @keyframes location {
+            0% {
+                transform: translateY(0x);
+            }
+
+            50% {
+                transform: translateY(-5px);
+            }
+
+            100% {
+                transform: translateY(0x);
+            }
+        }
+
+
+
+        .other_card {
+            transition: transform .3s ease-in-out, box-shadow 0.3s ease;
+            ;
+
+
+        }
+
+        .other_card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        .botton_icon {
+            display: inline-block;
+            animation: botton_iconanimate 1.5s infinite ease-in-out;
+        }
+
+        @keyframes botton_iconanimate {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-7px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .other_box {
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+            overflow: hidden;
+            border-radius: 20px;
+            transition: box-shadow 0.3s ease;
+            ;
+        }
+
+        .other_box:hover {
+
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+
+        .other_box img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .other_box:hover img {
+            transform: scale(1.12);
+        }
+
+
+        .inner_text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            align-content: center;
+            color: white;
+            opacity: 0;
+            background-color: rgba(9, 54, 55, 0);
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .other_box:hover .inner_text {
+            opacity: 1;
+            background-color: rgba(9, 54, 55, 0.5);
+        }
+
+
+        .inner_text p {
+            font-size: 70%;
+            padding: 0 5%;
+        }
+
+        .inner_text h3 {
+            font-size: 100%;
+            font-weight: 700;
+        }
+
+
+        .my_button {
+            background-color: transparent;
+            border-color: white;
+            color: white;
+        }
+
+        .assest {
+            background-color: white;
+            /* border-color: #b066ff; */
+            color: rgb(255, 255, 255);
+            font-size: 12px;
+        }
+
+        .assest:hover {
+            background-color: white !important;
+        }
+
+        .visit_button2 {
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: black;
+            transition: transform .3s ease-in-out, background-color .3s ease-in-out, box-shadow 0.3s ease;
+        }
+
+        .visit_button2:hover {
+            transform: translateY(-5px);
+            background-color: #b066ff;
+            color: white;
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        .visit_button_web {
+            position: absolute;
+        }
+
+
+
+
+
+        .other_box2 {
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+            overflow: hidden;
+            /* border-radius: 20px; */
+            transition: box-shadow 0.3s ease;
+            ;
+            border-radius: 50px 50px 20px 20px;
+        }
+
+
+        .other_box2 {
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 30px;
+            overflow: hidden;
+            /* border-radius: 20px; */
+            transition: box-shadow 0.3s ease;
+            ;
+        }
+
+        .work-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+
+        .other_box2 img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .work-card:hover img {
+            transform: scale(1.12);
+        }
+
+
+        .inner_text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            align-content: center;
+            color: white;
+            opacity: 0;
+            background-color: rgba(9, 54, 55, 0);
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .work-card:hover .inner_text {
+            opacity: 1;
+            background-color: rgba(9, 54, 55, 0.733);
+        }
+
+
+        .inner_text p {
+            font-size: 70%;
+            padding: 0 5%;
+        }
+
+        .inner_text h3 {
+            font-size: 100%;
+            font-weight: 700;
+        }
+
+        .support_text {
+            width: 50vw;
+            margin-bottom: 100px;
+        }
+
+        .row {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0 cover 25%;
+        }
+
+        .work-img {
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18);
+        }
+
+        .posters
+        {
+            transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
+
+        }
+        .posters:hover
+        {
+            transform: translateY(-10px);
+            box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.18); ;
+        }
+
+        .navbar-option
+        {
+            transition: transform .3s ease-in-out;
+        }
+        .navbar-option:hover
+        {
+            transform: translateY(-5px);
+        }
+
+        .bg
+        {
+            animation: entry 1s linear;
+        }
+        @keyframes entry
+        {
+            from{opacity: 0;}
+            to{opacity: 1; }
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+                scale: .5;
+            }
+
+            to {
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: .5;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+
+
+
+
+
+
+
+        @media(max-width: 2500px) {
+            .name {
+                font-size: 90px;
+            }
+
+            .name3 {
+                font-size: 70px;
+                color: #b066ff;
+            }
+        }
+
+        @media(max-width: 1570px) {
+            .name {
+                font-size: 75px;
+            }
+
+            /* .name3{font-size: px;} */
+            .myname {
+                font-size: 20px;
+            }
+        }
+
+        @media(max-width: 1335px) {
+            .name {
+                font-size: 60px;
+            }
+
+            .name3 {
+                font-size: 50px;
+            }
+        }
+
+        @media(max-width: 1060px) {
+            .name {
+                font-size: 40px;
+            }
+
+            .tittle-head {
+                font-size: 20px;
+                color: #b066ff;
+            }
+
+            .name3 {
+                font-size: 40px;
+            }
+
+            .myname {
+                font-size: 15px;
+            }
+        }
+
+        @media(max-width: 768px) {
+            .name {
+                font-size: 45px;
+                text-align: center;
+
+            }
+
+            .name3 {
+                font-size: 35px;
+            }
+
+            .name2 {
+                text-align: center;
+            }
+
+            .support_text {
+                width: 80vw;
+                color: #98A1B7 !important;
+            }
+
+            .bg {
+                background-color: rgb(255, 255, 255);
+                padding: 30px 15px 30px 15px;
+                
+            }
+
+            .bg2 {
+                background-color: #F1F5F6;
+                padding: 0px;
+                margin: 0px;
+                margin-bottom: 30px;
+            }
+
+            .myname {
+                text-align: center;
+            }
+
+            .logo {
+                text-align: center;
+            }
+
+            .skills {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .workdone {
+                width: 100% !important;
+                text-align: left !important;
+                margin: 0 !important;
+            }
+
+            .visit {
+                text-align: center !important;
+                width: 100% !important;
+            }
+
+            .work-img-div {
+                text-align: center;
+            }
+
+
+            .work-text {
+                text-align: left !important;
+            }
+            .link{padding: 7px; margin-top: 5px;}
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="head">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navBody fixed-top">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img src="LOGO.png" style="width: 220px; height: auto;" alt="sds">
+                    </a>
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navOptions">
+                        <a href="#" class="nav-link link navbar-option js-scroll-trigger">HOME</a>
+                        <a href="#about" class="nav-link link navbar-option js-scroll-trigger" >ABOUT</a>
+                        <a href="#services" class="nav-link link navbar-option js-scroll-trigger">SERVICES</a>
+                        <a href="#more" class="nav-link link navbar-option js-scroll-trigger">MORE</a>
+                        <a href="#project" class="nav-link link navbar-option js-scroll-trigger">PROJECT</a>
+                        
+                        <a href="#games" class="nav-link link navbar-option js-scroll-trigger">GAMES</a>
+                        <a href="#contact" class="nav-link link contact-btn navbar-option js-scroll-trigger">CONTACT</a>
+                    </div>
+                    <!-- <button class="btn contact_button">CONTACT</button> -->
+                </div>
+            </nav>
+        </div>
+        </nav>
+
+        <!--HeaderImage-->
+
+        <div class=" container-fluid pt-5">
+            <div class="row  align-items-center" style="padding-top: 70px;">
+
+
+                <div class="col-md-6 col-lg-6 col-sm-12 ">
+                    <img src="me.png" class="img-fluid  hero-image">
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 bg">
+
+                    <h4 class="myname">HI, I AM A EXPERIENCED</h4>
+                    <p class="name">
+                        <span class="highlight">GAME</span>
+                        &
+                        <span class="highlight">WEBSITE</span><br> DEVELOPER
+                    </p>
+                    <p class="name2  ">
+                        I’M A PASSIONATE GAME DEVELOPER AND WEBSITE DESIGNER,
+                        TURNING IDEAS INTO INTERACTIVE REALITIES. I DESIGN INTUITIVE WEBSITES AND BUILD GAMEPLAY THAT
+                        FEELS EXCITING,
+                        POLISHED, AND ENJOYABLE. MY GOAL IS TO CREATE DIGITAL EXPERIENCES THAT LOOK GREAT AND FEEL EVEN
+                        BETTER TO USE.
+                    </p>
+                    <div class="logo">
+                        <a href="https://www.instagram.com/piyushkumawat9982/?igsh=bHFrdHdvaW93eWs%3D#"><i
+                                class="fa-brands fa-instagram icon"></i></a>
+                        <a href="https://wa.me/918619144326?text=Hello%20Piyush!"><i
+                                class="fa-brands fa-whatsapp icon"></i></a>
+                        <a href="https://www.facebook.com/share/17awmKytsX/"><i
+                                class="fa-brands fa-facebook icon"></i></a>
+                        <a href="https://www.linkedin.com/in/piyush-kumawat-564791397/"><i
+                                class="fa-brands fa-square-linkedin icon"></i></a>
+                        <a href="https://github.com/piyushkumawatpiyush"><i class="fa-brands fa-github icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="ps-5 pe-5 container-fluid about" id="about">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 col-sm-12 text-center bg2">
+                <img src="mine.png" class="img-fluid" style="width: 300px;  height: 400px;">
+            </div>
+
+            <div class="col-md-6 col-lg-7 col-sm-12">
+                <label class="tittle-head">| ABOUT</label>
+                <h2 class="name3 pb-3 mb-5">I'M PIYUSH KUMAWAT</h2>
+                <p class="normal-text">
+                    I am a passionate game developer and website designer, currently pursuing BCA (1st year).
+                    I have been learning and improving my game development skills for the past 3 years,
+                    and during this journey, I’ve created and uploaded multiple games on the Google Play Store.
+                    I enjoy designing gameplay that feels smooth, creative, and engaging, and I
+                    constantly explore new ideas to make every project unique.
+                </p>
+                <p class="normal-text" style="margin-bottom: 100px;">
+                    Along with game development, I also work on website designing, creating clean, modern, and
+                    responsive websites. My imagination is one of my biggest strengths — I love turning ideas into
+                    interactive experiences that people can enjoy.
+                </p>
+
+
+
+
+                <div class="p-3 mt-5" style="background-color: #1A1430;">
+                    <i class="fa-solid fa-location-dot location-icon" style="color: #B066FF"></i>
+                    <label style="font-weight: 600; color: #98A1B7;">AJMER, RAJASTHAN, INDIA</label>
+                </div>
+
+
+
+
+                <div class="row pt-4">
+                    <div class="col-md-6 col-lg-3 col-sm-6 text-center "> <button
+                            class="btn skillshow w-100 mb-3 p-2"><i
+                                class="fa-brands fa-html5 pe-2 iconclass"></i>WEBSTIE</button></div>
+                    <div class="col-md-6 col-lg-3 col-sm-6 text-center"> <button class="btn skillshow w-100 mb-3 p-2"><i
+                                class="fa-solid fa-bug pe-4 iconclass"></i></i>CODING</button></div>
+                    <div class="col-md-6 col-lg-3 col-sm-6 text-center"> <button class="btn skillshow w-100 mb-3 p-2"><i
+                                class="fa-brands fa-unity pe-2 iconclass"></i>UNITY</button></div>
+                    <div class="col-md-6 col-lg-3 col-sm-6 text-center"> <button class="btn skillshow w-100 mb-3 p-2"><i
+                                class="fa-solid fa-cube pe-4 iconclass""></i>BLENDER</button></div>
+         
+    </div>
+    </div>
+   </div>
+ </div>
+
+<!-- CARDS -->
+
+<div class=" container-fluid skills " id="services" style="background-color: #0B0613;">
+                                <h2 class="text-center tittle-head mb-5" >| MY SERVICES</h2>
+                                <div class="text-center mx-auto support_text" style="color: #98A1B7;" >
+                                    I offer a range of digital services including modern website development,
+                                    clean and creative UI/UX design, logo & branding work, and custom web solutions
+                                    for businesses and individuals. Whether it's building a complete website, improving
+                                    user experience, or creating unique visuals, I deliver high-quality work tailored to
+                                    client needs.</div>
+                                <div class="row ">
+
+                                    <!-- Card 1 -->
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem;background-color: turquoise;">
+                                            <div class="card-body">
+                                                <i class="ri-gamepad-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">GAME DEVELOPMENT</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 2 -->
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem;background-color:#ffe143;">
+                                            <div class="card-body">
+                                                <i class="ri-device-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">WEBSITE DESIGN</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem; background-color: springgreen;">
+                                            <div class="card-body">
+                                                <i class="ri-pencil-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">LOGO & BANNER DESIGNER</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Card 3 -->
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem;background-color: #ff72a0;">
+                                            <div class="card-body">
+                                                <i class="ri-puzzle-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">GAME UI/UX DESIGN</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 4 -->
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem;background-color: honeydew;">
+                                            <div class="card-body">
+                                                <i class="ri-stairs-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">LEVEL DESIGN</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Card 5 -->
+
+
+                                    <div class="col-md-4 col-lg-4 col-sm-6 d-flex justify-content-center">
+                                        <div class="card text-center mb-5  skill-card w-100"
+                                            style="width: 18rem;background-color: #ff8a00;">
+                                            <div class="card-body">
+                                                <i class="ri-quill-pen-line fa-5x bounce_icon"></i>
+                                                <h4 class="card-title">ADOBE ILLUSTRATOR</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to
+                                                    additional content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="container-fluid" style="background-color: #120A1F; "
+                        id="more">
+                        <h1 class="text-center tittle-head" style="margin-bottom: 40px; padding-top: 70px;">| MORE ABOUT
+                            ME</h1>
+                        <div class="text-center mx-auto support_text" style="color: #98A1B7;">
+                            In this section, you’ll get a closer look at who I am beyond my work — my school and college
+                            journey, the experiences that shaped me, my hobbies, and the interests that inspire my
+                            creativity.
+                            It’s a small glimpse into the person behind the projects.</div>
+                        <div class="row d-flex px-3" >
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="text-center  mb-3  other_card extracard mx-auto"
+                                    style="background-color: #1A1430; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 30px;">
+                                    <i class="fa-solid fa-school fa-3x" style="color: #FE9543;"></i><br />
+                                    <label class="mb-3" style="font-weight: 600;">SCHOOLING</label><br />
+                                    <label style="">10th & 12th from Govt. Jawahar Senior Secondary School</label>
+                                </div>
+                            </div>
+                        
+
+
+
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="text-center mx-auto mb-3 visitbox extracard other_card"
+                                    style="background-color: #fff1e1; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                                    <i class="fa-solid fa-graduation-cap fa-3x " style="color: #FE9543;"></i><br/>
+                                    <label class="mb-3" style="font-weight: 600;">COLLEGE</label><br />
+                                    <label style="">Star Infotech College, Gaurav Path, Mali Mohalla, Ajmer,
+                                        Rajasthan</label>
+                                    <div class="visit_icon collegeicon">
+                                        <a href="https://starinfotechcollege.com/"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="text-center mx-auto mb-3 extracard other_card"
+                                    style="background-color: #e1feff; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                                    <i class="fa-solid fa-dumbbell fa-3x" style="color: #43e2fe;"></i><br/>
+                                    <label class="mb-3" style="font-weight: 600;">HOBBIES</label><br />
+                                    <label style="">1.I enjoy calisthenics and staying fit<br />
+                                        2.I like reading books<br />
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-3 col-sm-12 ">
+                                <div class="text-center mx-auto mb-3 visitbox extracard other_card"
+                                    style="background-color: #e1feff; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                                    <i class="fa-solid fa-user-tie fa-3x " style="color: #43e2fe;"></i><br />
+                                    <label class="mb-3" style="font-weight: 600;">SIDE HUSTLE</label><br />
+                                    <label style="">Owner & Instructor at SS Classes, providing quality Teaching</label>
+                                    <div class="visit_icon ">
+                                        <a href="https://share.google/5rdY0r3VG0bhLje5n"><i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div><br /><br />
+                    </div>
+
+
+
+
+
+
+
+                    <div class="container-fluid about " id="project" style="background-color: #0B0613; ">
+                        <h2 class="text-center tittle-head mb-5">| MY PROJECTS</h2>
+                        <!-- <div class="text-center mx-auto support_text" >
+                Here are some of the games I’ve created — each built with unique ideas, fun mechanics, and polished gameplay.
+                From fast-paced action to creative puzzle designs, every project reflects my passion for game development and
+                experimenting with new concepts.
+        </div> -->
+                        <div class="row mx-auto pt-5 workdone" style="width: 75%; align-items: center;">
+                            <div class="col-md-6 col-lg-6 col-sm-12 text-center work-img-div">
+                                <img src="work1.png" class="img-fluid work-img">
+                            </div>
+
+                            <div class="col-md-6 col-lg-6 col-sm-12 work-text" style="text-align: right;">
+                                <div>
+                                    <h3 style="font-weight: 600; color: white;" class="mt-5"> AGARBATTI WEBSITE</h3>
+                                    <p style="color: #98A1B7;"> I delivered a clean and engaging website for Shankarlal Gullumal Agarbatti.
+                                        The site is fully responsive with a smooth, minimal navigation and vibrant
+                                        product display.
+                                        I delivered a clean and engaging website for Shankarlal Gullumal Agarbatti.
+                                        The site is fully responsive with a smooth, minimal navigation and vibrant
+                                        product display </p>
+                                    <div>
+                                        <button class="assest btn" style="background-color: #28799E;"><i
+                                                class="fa-brands fa-unity"></i></a> WordPress</button>
+                                        <button class="assest btn" style="background-color: #7340F5;"><i
+                                                class="fa-solid fa-cube"></i> Canva</button>
+                                        <button class="assest btn" style="background-color: #54CFF4;"><i
+                                                class="fa-brands fa-css3-alt"></i> CSS</button>
+                                        <button class="assest btn" style="background-color: #0F2D59;"><i
+                                                class="fa-solid fa-indian-rupee-sign"></i> R-PAY API</button>
+                                        <button class="assest btn" style="background-color: #EB493B;"><i
+                                                class="fa-brands fa-google"></i> GOOGLE API</button>
+
+                                    </div>
+                                    <a href="https://shankarlalgullumalagarbattis.com/"><button
+                                            class="btn visit_button2 visit mt-3" style="width: 30%;">Visit
+                                            Site</button></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="row mx-auto pt-5 mt-5 workdone" style="width: 75%; align-items: center;">
+                            <div class="col-md-6 col-lg-6 col-sm-12 work-text" style="text-align: left;">
+                                <div>
+                                    <h3 style="font-weight: 600; color: white;" class="mt-5"> POSTER DESIGNES</h3>
+                                    <p style="color: #98A1B7;"> I specialize in creating high-quality posters and banner designs that are
+                                        visually striking, clean, and professionally crafted. Using Adobe Illustrator, I
+                                        design modern, creative, and impactful visuals for events, brands, promotions,
+                                        and social media. My focus is on delivering designs that are not only
+                                        eye-catching but also communicate the message clearly and effectively. Whether
+                                        it's a promotional banner, advertisement poster, festival design, or custom
+                                        artwork, I ensure premium quality and unique creativity in every project.</p>
+                                    <div>
+                                        <button class="assest btn" style="background-color: #28799E;"><i class="fa-solid fa-pencil"></i></a> Adobe Illustrator</button>
+                                        
+                                    </div>
+                                  
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-6 col-lg-6 col-sm-12 text-center work-img-div">
+                                <div class="container-fluid">
+                                    <div class="row mt-5">
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;">
+                                                <img src="pos.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img1Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;">
+                                                <img src="pos2.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img2Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;">
+                                                <img src="pos3.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img3Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row mt-3">
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;" >
+                                                <img src="pos4.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img4Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;">
+                                                <img src="pos5.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img5Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4 col-lg-4 col-4">
+                                            <div class="posters"
+                                                style="max-width: 250px; height: auto; overflow: hidden; border: 10px solid white;">
+                                                <img src="pos6.webp" class="img-fluid" data-bs-toggle="modal"
+                                                    data-bs-target="#img6Modal" style="cursor: pointer;">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="modal fade" id="img1Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos1.png" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="img2Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos2.jpg" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="img3Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos3.jpg" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="modal fade" id="img4Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos4.jpg" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="img5Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos5.jpg" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="img6Modal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content" style="background: transparent; border:none;">
+                                    <img src="pos6.jpg" class="img-fluid ">
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="container-fluid"
+                            style="background-color: #120A1F;padding: 40px 0px 40px 0px; margin-top: 100px;" id="games">
+                            <h1 class="text-center tittle-head " style="margin-bottom: 40px;">| Games I Made</h1>
+                            <div class="text-center mx-auto support_text" style="color: #98A1B7;">
+                                Here are some of the games I’ve created — each built with unique ideas, fun mechanics,
+                                and polished gameplay.
+                                From fast-paced action to creative puzzle designs, every project reflects my passion for
+                                game development and
+                                experimenting with new concepts.</div>
+                            <div class="row d-flex mx-auto" style="width: 90%;">
+                                <div class="col-md-6 col-lg-4 col-sm-3 ">
+                                    <div class="other_box" ">
+                
+                    <img clas=" img-fluid"src="personal1.png" alt="">
+                                        <div class="inner_text text-center">
+                                            <h3>SHEEP HUNTERS</h3>
+                                            <p>It;s a puzzle–strategy game I developed, where players use
+                                                smart tools like cages, ropes, doors to catch SHEEPS
+                                                without alerting them.</p>
+                                            <button class="my_button btn"><i class="fa-brands fa-unity"></i>
+                                                Unity</button>
+                                            <button class="my_button btn"> <i class="ri-quill-pen-line"></i>
+                                                Illustrator</button>
+                                            <button class="my_button btn"><i class="fa-solid fa-c"></i>#</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-md-6 col-lg-4 col-sm-3 ">
+                                    <div class="other_box" style="background-color: #093637;">
+
+                                        <img clas="img-fluid" src="personal2.png" alt="">
+                                        <div class="inner_text text-center">
+                                            <h3>Endless Rush 3D</h3>
+                                            <p>It's a fast-paced arcade experience where players drive endlessly through
+                                                dynamic roads while avoiding traffic and obstacles.</p>
+                                            <button class="my_button btn"><i class="fa-brands fa-unity"></i></a>
+                                                Unity</button>
+                                            <button class="my_button btn"><i class="fa-solid fa-cube"></i>
+                                                Blender3D</button>
+                                            <button class="my_button btn"><i class="fa-solid fa-c"></i>#</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-6 col-lg-4 col-sm-3 ">
+                                    <div class="other_box" style="background-color: #093637;">
+
+                                        <img clas="img-fluid" src="personal3.png" alt="">
+                                        <div class="inner_text text-center">
+                                            <h3>Seventh Wave</h3>
+                                            <p>It's a fast-paced 2D climbing survival game where the player must scale
+                                                dangerous
+                                                rock walls while outrunning rising threats like lava and enemies
+                                            </p>
+                                            <button class="my_button btn"><i class="fa-brands fa-unity"></i>
+                                                Unity</button>
+                                            <button class="my_button btn"> <i class="ri-quill-pen-line"></i>
+                                                Illustrator</button>
+                                            <button class="my_button btn"><i class="fa-solid fa-c"></i>#</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div><br /><br />
+                        </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- CONTACT ME -->
+
+                        <div class="container-fluid pt-5 mt-5" id="contact" >
+                            <h1 class="text-center tittle-head" style="margin-bottom: 70px;">| LET'S WORK TOGETHER</h1>
+                            <div class="text-center mx-auto support_text"
+                                style="margin-bottom: 0px; padding-bottom: 100px;">
+                                I’M ALWAYS OPEN TO NEW OPPORTUNITIES AND EXCITING PROJECTS.
+                                LET’S CONNECT AND BRING YOUR IDEAS TO LIFE WITH IMPACTFUL, CREATIVE, AND PROFESSIONAL
+                                EXECUTION. <br /><br /><br />
+
+
+                                <a href="https://www.instagram.com/piyushkumawat9982/?igsh=bHFrdHdvaW93eWs%3D#"><button
+                                        class="btn visit_button2 mt-2 me-4 "><i class="fa-brands fa-instagram"></i>
+                                        Instagram</button></a>
+                                <a href="https://www.facebook.com/share/17awmKytsX/"><button
+                                        class="btn visit_button2 mt-2 me-4"><i class="fa-brands fa-facebook"></i>
+                                        Facebook</button></a>
+                                <a href="https://wa.me/918619144326?text=Hello%20Piyush!"><button
+                                        class="btn visit_button2 mt-2 me-4"><i class="fa-brands fa-whatsapp"></i>
+                                        Whatsapp</button></a>
+
+                                <br /><br />
+                                <div class="container-fluid mt-5 " >
+                                    <div class="row">
+                                        <div class="col-4 col-md-4 col-sm-3 mb-4">
+                                            <a href="mailto:piyushkumawat9982gmail@gmail.com"
+                                                style="text-decoration: none;color: #181D43;"><i
+                                                    class="fa-regular fa-envelope fa-3x botton_icon"></i></a><br />
+                                            <label style="font-weight: 600;">Email</label><br />
+
+                                        </div>
+
+                                        <div class="col-4 col-md-4 col-sm-3 mb-4">
+                                            <a href="https://www.linkedin.com/in/piyush-kumawat-564791397/"
+                                                style="text-decoration: none;color: #181D43;"><i
+                                                    class="fa-brands fa-linkedin-in fa-3x botton_icon"></i></a><br />
+                                            <label style="font-weight: 600;">Linkdin</label><br />
+
+                                        </div>
+
+
+
+                                        <div class="col-4 col-md-4 col-sm-3 mb-4">
+                                            <a href="https://github.com/piyushkumawatpiyush"
+                                                style="text-decoration: none;color: #181D43;"><i
+                                                    class="fa-brands fa-github fa-3x botton_icon"></i></a><br />
+                                            <label style="font-weight: 600;">GITHUB</label><br />
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class=" text-center" style="background-color:#181D43; color: white; padding: 20px 10px 20px 10px;">
+                            build with <i class="fa-solid fa-heart" style="color: white;"></i> by Piyush Kumawat with
+                            Html / Css / Bootstrap
+                        </div>
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <script type="text/javascript">
+
+                            $('.js-scroll-trigger').click(function () { $('.navbar-collapse').collapse('hide');
+                             });
+</script>
+</body>
+
+</html>
