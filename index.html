@@ -18,6 +18,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap"
         rel="stylesheet">
+    
+       
     <style>
         .navBody {
             background-color: #120A1F;
@@ -607,6 +609,14 @@
         {
             color: #98A1B7;
         }
+        .burgerIcon
+        {
+            transition: all .3s ease-in-out;
+        }
+        .burgerIcon:focus-visible
+        {
+            border: none;
+        }
         @keyframes entry
         {
             from{opacity: 0;}
@@ -808,8 +818,8 @@
                     <a href="#" class="navbar-brand">
                         <img src="LOGO.png" style="width: 220px; height: auto;" alt="sds">
                     </a>
-                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler burgerIcon" style="  " data-bs-toggle="collapse" data-bs-target="#navOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars  burgerIcon" style="color: white;"></span>
                     </button>
 
                     <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navOptions">
@@ -1514,6 +1524,21 @@
 
                         </div>
                         </div>
+
+
+
+                        <div>
+                           
+
+                <model-viewer src="House.glb" 
+                    auto-rotate 
+                    camera-controls 
+                    style="width: 100%; height: 400px;">
+                </model-viewer>
+
+                <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+
                         <div class=" text-center" style="background-color:#1A1430; color: white; padding: 20px 10px 20px 10px;">
                             build with <i class="fa-solid fa-heart" style="color: white;"></i> by Piyush Kumawat with
                             Html / Css / Bootstrap
