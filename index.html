@@ -1349,7 +1349,7 @@
                                 </div>
 
                                 <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12 " style="align-content: center;">
-                                   <div class="games_Info game2 w-100" style="text-align: ;">
+                                   <div class="games_Info game2 w-100" ">
                                     <h2 style="color: white;">SHEEP HUNTERS</h2>
 
                                     <p>It’s a puzzle–strategy game I developed, where players use smart tools like cages, ropes, 
@@ -1417,68 +1417,6 @@
 </div>
 
 
-                        <!-- <div class="container-fluid"
-                            style="background-color: #120A1F;padding: 40px 0px 40px 0px; margin-top: 100px;" id="games">
-                            <h1 class="text-center tittle-head " style="margin-bottom: 40px;"> Games I Made</h1>
-                            <div class="text-center mx-auto support_text" style="color: #98A1B7;">
-                                Here are some of the games I’ve created — each built with unique ideas, fun mechanics,
-                                and polished gameplay.
-                                From fast-paced action to creative puzzle designs, every project reflects my passion for
-                                game development and
-                                experimenting with new concepts.</div>
-                            <div class="row d-flex mx-auto" style="width: 90%;">
-                                <div class="col-md-6 col-lg-4 col-sm-3 ">
-                                  
-                                </div>
-
-
-
-
-                                <div class="col-md-6 col-lg-4 col-sm-3 ">
-                                    <div class="other_box" style="background-color: #093637;">
-
-                                        <img clas="img-fluid" src="personal2.png" alt="">
-                                        <div class="inner_text text-center">
-                                            <h3>Endless Rush 3D</h3>
-                                            <p>It's a fast-paced arcade experience where players drive endlessly through
-                                                dynamic roads while avoiding traffic and obstacles.</p>
-                                            <button class="my_button btn"><i class="fa-brands fa-unity"></i></a>
-                                                Unity</button>
-                                            <button class="my_button btn"><i class="fa-solid fa-cube"></i>
-                                                Blender3D</button>
-                                            <button class="my_button btn"><i class="fa-solid fa-c"></i>#</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-md-6 col-lg-4 col-sm-3 ">
-                                    <div class="other_box" style="background-color: #093637;">
-
-                                        <img clas="img-fluid" src="personal3.png" alt="">
-                                        <div class="inner_text text-center">
-                                            <h3>Seventh Wave</h3>
-                                            <p>It's a fast-paced 2D climbing survival game where the player must scale
-                                                dangerous
-                                                rock walls while outrunning rising threats like lava and enemies
-                                            </p>
-                                            <button class="my_button btn"><i class="fa-brands fa-unity"></i>
-                                                Unity</button>
-                                            <button class="my_button btn"> <i class="ri-quill-pen-line"></i>
-                                                Illustrator</button>
-                                            <button class="my_button btn"><i class="fa-solid fa-c"></i>#</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div><br /><br />
-                        </div>
-
-
-</div> -->
 
 
 
@@ -1605,6 +1543,25 @@
                             $('.js-scroll-trigger').click(function () { $('.navbar-collapse').collapse('hide');
                              });
                         </script>
+                <script>
+                        document.addEventListener("click", function (event) {
+
+                            const navbar = document.querySelector(".navbar-collapse");
+                            const toggler = document.querySelector(".navbar-toggler");
+
+                            // Agar navbar open hai
+                            if (navbar.classList.contains("show")) {
+
+                                // Agar click navbar ke andar NHI hua aur toggle button par nahi hua
+                                if (!navbar.contains(event.target) && !toggler.contains(event.target)) {
+
+                                    // Collapse ko close kar do
+                                    new bootstrap.Collapse(navbar).hide();
+                                }
+                            }
+                        });
+</script>
+
 </body>
 
 </html>
