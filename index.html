@@ -617,6 +617,29 @@
         {
             border: none;
         }
+
+        .blenderName
+        {
+            position: absolute;
+            align-items: center;
+            color: white;
+            right: -1%;
+            bottom: -10px;
+            border-radius: 10px;
+            background-color: #ff6b3d;
+            padding: 5px 10px 5px 10px;
+            animation: blenderAni 1s infinite ease-in-out;
+        }
+        .blenderName i
+        {
+            animation: blenderAni 1s infinite ease-in-out;
+        }
+        @keyframes blenderAni
+        {
+            0%{transform: scale(1.2);}
+            50%{transform: scale(1);}
+            100%{ transform: scale(1.2);}
+        }
         @keyframes entry
         {
             from{opacity: 0;}
@@ -658,7 +681,7 @@
 
         @media(max-width: 2500px) {
             .name {
-                font-size: 90px;
+                font-size: 70px;
             }
 
             .name3 {
@@ -669,7 +692,7 @@
 
         @media(max-width: 1570px) {
             .name {
-                font-size: 75px;
+                font-size: 65px;
             }
 
             /* .name3{font-size: px;} */
@@ -813,13 +836,13 @@
 
     <div class="head">
         <div class="">
-            <nav class="navbar navbar-expand-lg navBody fixed-top">
+            <nav class="navbar navbar-expand-lg navBody fixed-top data-bs-auto-close="outside"">
                 <div class="container-fluid">
                     <a href="#" class="navbar-brand">
                         <img src="LOGO.png" style="width: 220px; height: auto;" alt="sds">
                     </a>
-                    <button class="navbar-toggler burgerIcon" style="  " data-bs-toggle="collapse" data-bs-target="#navOptions" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa-solid fa-bars  burgerIcon" style="color: white;"></span>
+                    <button class="navbar-toggler burgerIcon" data-bs-toggle="collapse" data-bs-target="#navOptions" data-bs-auto-close="outside" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars  burgerIcon" style="color: white;" data-bs-auto-close="outside"></span>
                     </button>
 
                     <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navOptions">
@@ -830,6 +853,7 @@
                         <a href="#project" class="nav-link link navbar-option js-scroll-trigger">PROJECTS</a>
                         
                         <a href="#games" class="nav-link link navbar-option js-scroll-trigger">GAMES</a>
+                        <a href="#models" class="nav-link link navbar-option js-scroll-trigger">3D Models</a>
                         <a href="#contact" class="nav-link link contact-btn navbar-option js-scroll-trigger">CONTACT</a>
                     </div>
                     <!-- <button class="btn contact_button">CONTACT</button> -->
@@ -947,8 +971,8 @@
                                             <div class="card-body">
                                                 <i class="ri-gamepad-line fa-5x bounce_icon" style="color: #ff2f2f;"></i>
                                                 <h4 class="card-title" style="color: #ff2f2f;">GAME DEVELOPMENT</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <p class="card-text" style="color: #98A1B7;">Skilled in Unity, I design and develop immersive games that
+                                                     combine strategy, action, and creativity to deliver unique player experiences.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -960,8 +984,8 @@
                                             <div class="card-body">
                                                 <i class="ri-device-line fa-5x bounce_icon" style="color: #ff6b3d;"></i>
                                                 <h4 class="card-title" style="color: #ff6b3d;">WEBSITE DESIGN</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <p class="card-text" style="color: #98A1B7;">I craft modern and responsive websites, blending aesthetics
+                                                     with functionality to deliver smooth and engaging user experiences</p>
                                             </div>
                                         </div>
                                     </div>
@@ -972,8 +996,8 @@
                                             <div class="card-body">
                                                 <i class="ri-pencil-line fa-5x bounce_icon" style="    color: #c126ff;"></i>
                                                 <h4 class="card-title" style="    color: #c126ff;">LOGO & BANNER DESIGNER</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <p class="card-text" style="color: #98A1B7;">I design creative logos and eye-catching banners that 
+                                                    visually communicate brand identity and leave a lasting impression.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -986,8 +1010,8 @@
                                             <div class="card-body">
                                                 <i class="ri-puzzle-line fa-5x bounce_icon" style="color: #97ff29;"></i>
                                                 <h4 class="card-title" style="color: #97ff29;">GAME UI/UX DESIGN</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <p class="card-text" style="color: #98A1B7;">Skilled in Unity game development, I craft interactive
+                                                     UI and smooth UX that enhance gameplay and player satisfaction.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -997,10 +1021,10 @@
                                         <div class="card text-center mb-5  skill-card w-100"
                                             style="width: 18rem;background-color:  #18122c;">
                                             <div class="card-body">
-                                                <i class="ri-stairs-line fa-5x bounce_icon" style="color: #ffb52a;"></i>
-                                                <h4 class="card-title" style="color: #ffb52a;">LEVEL DESIGN</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <i class="ri-blender-line fa-5x bounce_icon"  style="color: #ffb52a;"></i>
+                                                <h4 class="card-title" style="color: #ffb52a;">3D MODELING</h4>
+                                                <p class="card-text" style="color: #98A1B7;">I create detailed 3D models using Blender, bringing ideas to
+                                                     life with realistic textures, lighting, and design.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1014,8 +1038,8 @@
                                             <div class="card-body">
                                                 <i class="ri-quill-pen-line fa-5x bounce_icon" style="color: #ff2f2f;"></i>
                                                 <h4 class="card-title" style="color:#ff2f2f;">ADOBE ILLUSTRATOR</h4>
-                                                <p class="card-text" style="color: white;">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
+                                                <p class="card-text" style="color: #98A1B7;">Proficient in Adobe Illustrator, I create vector graphics,
+                                                     logos, and detailed illustrations for digital and print media.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1319,7 +1343,7 @@
 
                              <div class="row d-flex mx-auto" style="width: 90%;margin-top: 100px;">
                                <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center;">
-                                         <video class="v2" controls  muted loop playsinline style="width:100%; border-radius: 12px;">
+                                         <video class="v2" autoplay  muted loop playsinline style="width:100%; border-radius: 12px;">
                                              <source src="gameone.webm" type="video/mp4">
                                          </video>                                
                                 </div>
@@ -1369,6 +1393,7 @@
                                          pushing you to master quick decision-making and perfect timing. With smooth controls, sci-fi visuals, 
                                          and intense moments where one wrong move means destruction, this game delivers a thrilling journey
                                     </p>
+                                    
                                     <div>
                                         <button class="assest btn" style="background-color: #28799E;"><i
                                                 class="fa-brands fa-unity"></i></a> Unity</button>
@@ -1383,7 +1408,7 @@
 
 
                                  <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center;">
-                                         <video class="v" controls  muted loop playsinline style="width:100%; border-radius: 12px;">
+                                         <video class="v" autoplay  muted loop playsinline style="width:100%; border-radius: 12px;">
                                              <source src="gametwo.webm" type="video/mp4">
                                          </video>                                
                                 </div>
@@ -1462,30 +1487,32 @@
 
 
   <div class="container-fluid games_Sec"
-                            style="background-color: #120A1F;padding: 40px 0px 40px 0px; margin-top: 100px;" id="games">
+                            style="background-color: #120A1F;padding: 40px 0px 40px 0px; margin-top: 100px;" id="models">
                             <h1 class="text-center tittle-head " style="margin-bottom: 40px;"> 3d Models I Made</h1>
                             <div class="text-center mx-auto support_text" style="color: #98A1B7;">
-                                Here are some of the games I’ve created — each built with unique ideas, fun mechanics,
-                                and polished gameplay.
-                                From fast-paced action to creative puzzle designs, every project reflects my passion for
-                                game development and
-                                experimenting with new concepts.</div>
+                                Here are some of the 3D models I’ve created in Blender — each crafted with attention to detail, creative design, 
+                                and realistic or stylized aesthetics. From intricate objects to full environments, every project reflects my
+                                 passion for 3D art and experimenting with new modeling techniques.</div>
 
 
                                 <!-- Other Game Developed -->
 
                              <div class="row d-flex mx-auto" style="width: 90%;margin-top: 100px;">
-                               <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center;">
-                                <div class="" style="width: 100%; background-color: #1A1430; border-radius: 40px;">
+                               <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center; margin-bottom: 50px;">
+                                <div class="" style="width: 100%; background-color: #1A1430; border-radius: 40px; position: relative;">
                                     <model-viewer src="Car1.glb" auto-rotate camera-controls style="width: 100%; height: 400px;" camera-orbit="-35deg 85deg 3m"></model-viewer>
-
+                                    <div class="blenderName">
+                                        <i class="ri-blender-line" style="color: white;"></i>
+                                    </div>
                                 </div>
                                 </div>
 
-                                 <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center;">
-                                <div class="" style="width: 100%; background-color: #1A1430; border-radius: 40px;">
+                                 <div class="col-md-12 col-lg-12 col-xl-6 col-sm-12  " style="align-content: center;  margin-bottom: 50px;">
+                                <div class="" style="width: 100%; background-color: #1A1430; border-radius: 40px; position: relative;">
                                     <model-viewer src="Cars2.glb" auto-rotate camera-controls style="width: 100%; height: 400px;" camera-orbit="35deg 85deg 3m"></model-viewer>
-
+                                    <div class="blenderName">
+                                        <i class="ri-blender-line" style="color: white;"></i>
+                                    </div>
                                 </div>
                                 </div>
                             </div>     
